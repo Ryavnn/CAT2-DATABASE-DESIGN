@@ -7,8 +7,8 @@ ALTER TABLE employees ADD COLUMN age INT;
 
 UPDATE employees set age = CASE
   WHEN id = 1 THEN 35
-  WHEN id = 1 THEN 28
-  WHEN id = 1 THEN 20
-  WHEN id = 1 THEN 30
-  WHEN id = 1 THEN 23
+  WHEN id = 2 THEN 28
+  WHEN id = 3 THEN 20
+  WHEN id = 4 THEN 30
+  WHEN id = 5 THEN 23
   END;
